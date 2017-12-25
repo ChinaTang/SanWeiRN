@@ -30,6 +30,12 @@ export default class StudentsList extends Component{
         return(<View style={styles.container}>
             <FlatList data={this.state.students}
                       renderItem={({item})=>this.renderItem(item)}/>
+
+            <TouchableOpacity onPress={()=>{this.props.navigation.navigate('add')}}>
+                <Text>
+                    添加
+                </Text>
+            </TouchableOpacity>
         </View>);
     }
 

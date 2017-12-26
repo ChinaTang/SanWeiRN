@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+    <dbname value="sanwei" ></dbname>
+
+    <version value="1" ></version>
+
+    <list>
+        <map>com.sanwei.db.StudentDB</map>
+        <map>com.sanwei.db.Achievement</map>
+    </list>
+</litepal>
